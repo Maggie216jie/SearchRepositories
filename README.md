@@ -10,6 +10,6 @@
 ![Alt text](https://github.com/Maggie216jie/SearchRepositories/blob/main/light.png)
 ![Alt text](https://github.com/Maggie216jie/SearchRepositories/blob/main/dark.png)
 
-## Test related commend 
+## Test related command Lines
 * npm run test 
 * npm run coverage
