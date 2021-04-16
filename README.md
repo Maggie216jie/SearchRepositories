@@ -1,4 +1,4 @@
-##How to run it?
+## How to run it?
 * `git clone https://github.com/Maggie216jie/SearchRepositories.git`
 * cd search-git-repositories
 * add your own **GitHub personal access token** in a .env file in your root folder
@@ -6,9 +6,10 @@
 * npm install
 * npm start
 * visit `http://localhost:3000`
+## What will it look like?
+![Alt text](https://github.com/Maggie216jie/SearchRepositories/blob/main/light.png)
+![Alt text](https://github.com/Maggie216jie/SearchRepositories/blob/main/dark.png)
 
-##What will it look like?
-
-##Test related commend 
+## Test related commend 
 * npm run test 
 * npm run coverage

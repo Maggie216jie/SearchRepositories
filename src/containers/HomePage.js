@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 import "./HomePage.css";
 import SearchInput from "../components/SearchBar/SearchInput";
-
 import Header from "../components/Header/Header";
 import ResultDisplay from "../components/ResultPanel/ResultDisplay";
+import { THEME } from "../constants"
+
 
 const HomePage = () => {
   const [inputValue, setInputValue] = useState("");
-  const [toggleValue, setToggleValue] = useState(localStorage.getItem("theme"));
+  const [toggleValue, setToggleValue] = useState(localStorage.getItem(THEME));
 
   const handleCheck = value => {
     setToggleValue(value);
 
     //use localStorage to stroe theme
-    localStorage.setItem("theme", value);
+    localStorage.setItem(THEME, value);
   };
 
-  let dark =String(localStorage.getItem("theme")) == "true" ? "dark": ""
-
-
+  let dark =String(localStorage.getItem(THEME)) == "true" ? "dark": ""
 
   return (
     <div className={`whole-page-container ${dark}`}>
