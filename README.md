@@ -1,6 +1,6 @@
 ## How to run it?
 * `git clone https://github.com/Maggie216jie/SearchRepositories.git`
-* cd search-git-repositories
+* cd SearchRepositories
 * add your own **GitHub personal access token** in a .env file in your root folder
   * REACT_APP_GITHUB_CRE=xxxXXX
 * npm install
